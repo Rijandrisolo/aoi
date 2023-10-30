@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="fr">
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>
+Document
+</title> 
+</head> 
+<body> 
+<p>TP 05</p>
+<h1>Form</h1>
+
+<form action="https://digicode.cleverapps.io/utilisateurs/create" method="POST">
+<div>
+    <input type="hidden" name="identite" value ="RANDRIANARIVONY">
+    <label for="nom">Nom</label><br>
+    <input type="text" name="nom"/> <br>
+    <label for="prenom">Prénom</label><br>
+    <input type="text" name="prenom"/> <br>
+    <label for="date">Date de Naissance</label><br>
+    <input type="date" name="dateNaissance"/> <br>
+    <label for="lieuNaissance">Lieu de Naissance</label><br>
+    <input type="text" name="lieuNaissance"/> <br>
+    <label for="deptNaissance">Département de Naissance</label><br>
+    <input type="text" name="deptNaissance"/> 
+  <p></p>
+    <fieldset >
+        <legend>Adresse</legend>
+        <label for="numeroRue">Numéro Rue</label><br />
+        <input type="text"  name="numeroRue"  /><br />
+        <label for="libelleRue">Libellé Rue</label><br />
+        <input type="text"  name="libelleRue"  /><br />
+        <label for="ville">Ville</label><br />
+        <input type="text"  name="ville"  /><br />
+     </fieldset>
+   </div>
+<p></p>
+<button type="submit">Valider</button>
+<button type="reset">Annuler</button>
+
+</form>
+</body>
