@@ -1,4 +1,4 @@
-<?php
+stmfony sem_remove<?php
 
 namespace App\Entity;
 
